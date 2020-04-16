@@ -40,8 +40,8 @@ Here is the main protocol that main.cpp uses for uWebSocketIO in communicating w
 
 [//]: # (Image References)
 
-[image1]: fig/Dataset1.PNG "Dataset1"
-[image2]: fig/Dataset2.PNG "Dataset2"
+[image1]: fig/dataset1.PNG "Dataset1"
+[image2]: fig/dataset2.PNG "Dataset2"
     ---
 ## Algorithm
 The program uses the first measurement to initialize all the matrices of the kalman filter. From the second measurement on, it performs the following steps:
