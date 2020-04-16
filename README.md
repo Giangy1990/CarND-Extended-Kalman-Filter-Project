@@ -1,4 +1,5 @@
-# Extended Kalman Filter Project
+# Extended Kalman Filter
+---
 ## Purpose
 This project implements an Extended Kalman Filter (EKF) to estimate the state of a moving object detected using Laser and Radar measurements. To evaluate the goodness of the EKF, the Root Mean Squared Error (RMSE) between the estimation provided by the EKF algorithm and a provided ground truth has been computed.
 
@@ -41,7 +42,7 @@ Here is the main protocol that main.cpp uses for uWebSocketIO in communicating w
 
 [image1]: ./fig/Dataset1.PNG "Dataset1"
 [image2]: ./fig/Dataset2.PNG "Dataset2"
----
+    ---
 ## Algorithm
 The program uses the first measurement to initialize all the matrices of the kalman filter. From the second measurement on, it performs the following steps:
 1. compute the elapsed time from the previous measurement
@@ -106,9 +107,11 @@ The following table resumes the results and the baseline provided in the [rubric
 
 In the following figure it is possible to see the EKF results for both datasets.
 * **Dataset1** with both sensors
+
 ![alt text][image1]
 
 * **Dataset2** with both sensors
+
 ![alt text][image2]
 
 To figure out the performances of the single sensor, other two test were performed using one sensor at time.\
